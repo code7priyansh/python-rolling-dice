@@ -7,7 +7,7 @@ class DieView:
         # create a view of the die e.g. d1=DieView(myWin,Point(40,50),20) its centered at 40,50 and length of 20
         self.win = win
         self.background = "white"  # color of face
-        self.foreground = "black"  # Thats for the pips
+        self.foreground = "red"  # Thats for the pips
         self.psize = 0.1 * size  # radius of each pip
         hsize = size / 2.0  # size of die
         offset = 0.6 * hsize  # distance from center to other pips
